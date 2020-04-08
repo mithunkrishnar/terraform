@@ -1,9 +1,9 @@
 provider "google" {
   version = "3.5.0"
 
-  credentials = file("<NAME>.json")
+  credentials = file("terraformgcp-273620-245ccf82ab6c.json")
 
-  project = "<PROJECT_ID>"
+  project = "terraformgcp-273620"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
